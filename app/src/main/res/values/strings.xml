@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RadioButtons - Milton</string>
+    <string name="student_name">Estudiante: Milton Toasa</string>
+    <string name="course_title">Aplicaciones Móviles - Semana 2</string>
+    
+    <!-- Títulos y Descripciones del Menú -->
+    <string name="title_encuesta">1. Encuesta de Satisfacción</string>
+    <string name="desc_encuesta">Calificación interactiva de calidad de servicio con RadioButtons y reporte final.</string>
+    
+    <string name="title_tema">2. Selector de Tema</string>
+    <string name="desc_tema">Administración de tema Claro, Oscuro y Sistema con aplicación dinámica.</string>
+    
+    <string name="title_quiz">3. Quiz Simple</string>
+    <string name="desc_quiz">Cuestionario técnico con RadioButtons y cálculo de porcentaje de aciertos.</string>
+    
+    <string name="title_propinas">4. Calculadora de Propinas</string>
+    <string name="desc_propinas" formatted="false">Cálculo de propina (10%, 15%, 20%) y resumen de cuenta detallado.</string>
+    
+    <string name="title_conversor">5. Conversor de Unidades</string>
+    <string name="desc_conversor">Conversión reactiva entre longitud, masa/peso y escalas de temperatura.</string>
+</resources>

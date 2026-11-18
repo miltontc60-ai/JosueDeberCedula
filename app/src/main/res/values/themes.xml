@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Base para Milton -->
+    <style name="Base.Theme.RadioButtonsMilton" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/accent_pink</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Theme.RadioButtonsMilton" parent="Base.Theme.RadioButtonsMilton" />
+</resources>

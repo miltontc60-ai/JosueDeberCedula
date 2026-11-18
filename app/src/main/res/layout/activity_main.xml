@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8FAFC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login de Usuarios"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#047857"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/txt_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Usuario"
+        android:background="#FFFFFF"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/txt_clave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ingresar"
+        android:backgroundTint="#047857"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_ir_verificar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Validar Cédula"
+        android:backgroundTint="#059669"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
